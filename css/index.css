@@ -1,0 +1,213 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+   overflow-x: auto
+}
+header{
+   display: flex;
+    justify-content: space-between;
+    background-color: rgba(102, 22, 22, 0.823);
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-family: Forte;
+    color: azure;
+}
+.logo img{
+    width:57px;
+    height:57px;
+    border-radius:50% ;
+    margin: 10px;
+    
+}
+header nav{
+    margin-right: 200px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+ nav a{
+    text-decoration: none;
+    color: rgb(99, 78, 25);
+    font-weight: 600;
+    padding-right: 10px;
+    color: azure;
+}
+nav a:hover{
+    color: brown;
+}
+main {
+  margin-top: 100px;
+}
+.cajasSuperiores{
+    display: flex;
+     gap: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.cajasInferiores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.caja1 {
+  background: #d59090;
+  padding: 30px;
+  width: 100%;
+  max-width: 480px;
+  height: 40rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.cajaOferta {
+  background: rgb(50, 32, 32);
+  padding: 30px;
+  width: 20rem;
+  border-radius: 50px;
+  font-weight: bold;
+  border: solid rgb(145, 16, 16);
+  color: aliceblue;
+  text-align: center;
+}
+.caja2 {
+  background: #7d1919;
+  padding: 30px;
+    width: 100%;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.caja-compra {
+
+  background: transparent;
+  color: #ff9800;
+  border: 2px solid #ff9800;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 8px 24px;
+  margin: 10px auto 0 auto;
+  text-align: center;
+}
+#caja2 img {
+  width: 10%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.caja3 {
+  background: #d6a1a1d5;
+  width: 15rem;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 28rem;
+  margin-left: 20px;
+  
+}
+.caja {
+  background: #8a0b0b;
+  padding: 30px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 10px;
+  
+}
+.caja img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.caja3 ul li{
+  list-style: none;
+  margin: 30px 10px;
+  color: rgb(0, 0, 0);
+  border: solid;
+  border-radius: 20px 15px;
+  background-color: #eecfef;
+  padding: 10px;
+  justify-items: flex-start;
+ 
+}
+.Tproducto{
+  color: oldlace;
+}
+.detalles{
+  color: rgb(247, 203, 8);
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer{
+  background-color: rgb(104, 76, 76);
+  color: azure;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2px;
+  
+}
+.Pfooter {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  gap: 40px;
+}
+@media (min-width: 701px) and (max-width: 1024px) {
+  header nav {
+    margin-right: 40px;
+  }
+  .logo {
+    margin-left: 40px;
+  }
+
+  .cajasSuperiores {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.caja1, .caja2 {
+  flex: 1 1 0;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+.caja3{
+  margin-top: 75px;
+}
+
+  .caja3 ul {
+    padding: 0;
+  }
+
+  .caja3 ul li {
+    font-size: 16px;
+    margin: 15px 5px;
+  }
+  }
+
+
+
